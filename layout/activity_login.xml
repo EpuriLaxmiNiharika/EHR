@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/login_background"
+    tools:context="com.example.niharika.hospitalmanagementsystem.LoginActivity">
+
+
+    <LinearLayout
+        android:layout_centerVertical="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <android.support.design.widget.TextInputLayout
+            android:textColorHint="#e3ededed"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:theme="@style/TextLabel">
+
+            <EditText
+                android:id="@+id/login_id"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="15dp"
+                android:textColor="@color/edit_text_color"
+                android:hint="@string/login_id"
+                android:drawableLeft="@drawable/user"
+                android:backgroundTint="@color/edit_text_border"
+                android:drawablePadding="9dp"
+                android:inputType="text" />
+
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:theme="@style/TextLabel">
+            <EditText
+                android:id="@+id/login_pass"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="15dp"
+                android:textColor="@color/edit_text_color"
+                android:hint="@string/login_pass"
+                android:drawableLeft="@drawable/password"
+                android:backgroundTint="@color/edit_text_border"
+                android:drawablePadding="9dp"
+                android:inputType="textPassword" />
+        </android.support.design.widget.TextInputLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center">
+
+            <Button
+                android:id="@+id/loginButton"
+                android:layout_width="193dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:background="@drawable/button_style"
+                android:text="@string/login_button_text"
+                android:textColor="@color/button_text"
+                android:onClick="loginUser"
+                android:textAllCaps="false" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/registerButton"
+            android:onClick="registerUser"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Not have an account? Signup Here"
+            android:textAlignment="center"
+            android:textColor="@color/button_text" />
+    </LinearLayout>
+
+</RelativeLayout>

@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingLeft="30dp"
+    android:background="@color/login_background">
+
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60dp"
+        android:layout_marginRight="20dp"
+        android:text="@string/enter_gender"
+        android:textColor="@color/edit_text_color"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+    <RadioGroup
+        android:layout_marginTop="15dp"
+        android:paddingLeft="30dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_margin="30dp"
+        android:id="@+id/reg_gender"
+        android:layout_below="@id/textView12">
+
+        <RadioButton
+            android:checked="true"
+            android:id="@+id/radio_boy"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/reg_email_next_btn"
+            android:layout_alignRight="@+id/imageView2"
+            android:layout_marginBottom="18dp"
+            android:layout_marginRight="80dp"
+            android:button="@drawable/boy"
+            android:drawablePadding="10dp"
+            android:background="@color/login_background"
+            android:clickable="true"
+            android:onClick="changeBackground"
+            />
+
+        <RadioButton
+            android:id="@+id/radio_girl"
+            android:drawablePadding="5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/reg_email_next_btn"
+            android:layout_alignRight="@+id/imageView2"
+            android:layout_marginRight="14dp"
+            android:button="@drawable/girl"
+            android:background="@null"
+            android:clickable="true"
+            android:onClick="changeBackground"
+
+            />
+    </RadioGroup>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:id="@+id/ll_dob"
+        android:layout_margin="20dp"
+        >
+
+        <ImageButton
+            android:id="@+id/imageButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@null"
+            android:src="@drawable/calendar"
+            android:layout_marginRight="20dp"
+            />
+
+        <TextView
+            android:id="@+id/reg_dob"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:onClick="displayDPD"
+            android:text="@string/enter_dob"
+            android:textColor="@color/edit_text_color"
+            />
+
+    </LinearLayout>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Select BloodGroup"
+        android:textColor="@color/edit_text_color"
+        android:textSize="20dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginBottom="30dp"
+        android:textStyle="bold" />
+
+
+    <RadioGroup
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:id="@+id/reg_blood_group">
+
+
+        <RadioButton
+            android:theme="@style/custom_radio_btn"
+            android:checked="true"
+            android:textColor="@color/edit_text_color"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/reg_opos"
+            android:text="O+"/>
+
+        <RadioButton
+
+            android:theme="@style/custom_radio_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/reg_oneg"
+            android:textColor="@color/edit_text_color"
+            android:text="O-"/>
+
+
+
+        <RadioButton
+            android:theme="@style/custom_radio_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="B+"
+            android:textColor="@color/edit_text_color"
+            android:id="@+id/reg_bpos"/>
+
+        <RadioButton
+            android:theme="@style/custom_radio_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/reg_bneg"
+            android:textColor="@color/edit_text_color"
+            android:text="B-"/>
+
+        <RadioButton
+
+            android:theme="@style/custom_radio_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/reg_abpos"
+            android:textColor="@color/edit_text_color"
+            android:text="AB+"/>
+
+        <RadioButton
+            android:theme="@style/custom_radio_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/edit_text_color"
+            android:id="@+id/ab_neg"
+            android:text="AB-"/>
+
+    </RadioGroup>
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="265dp"
+        android:onClick="next_btn"
+        android:src="@drawable/next" />
+</LinearLayout>

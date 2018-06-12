@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#324c73</color>
+    <color name="colorPrimaryDark">#324c73</color>
+    <color name="colorAccent">#324c73</color>
+    <color name="login_background">#c7072046</color>
+    <color name="blank_screen">#24085c</color>
+    <color name="edit_text_border">#e54ecdff</color>
+
+    <color name="edit_text_color">#e3ededed</color>
+    <color name="button_color">#e535bdf2</color>
+    <color name="button_pressed_color">#c700b786</color>
+    <color name="button_text">#f5f6f7</color>
+    <color name="patient_reason">#040404</color>
+    <color name="patient_subreason">#838282</color>
+    <color name="doctor_subreason">#696969</color>
+
+    <color name="fab_pressed">#546e7a</color>
+    <color name="white">#ffffff</color>
+    <color name="black">#000000</color>
+    <color name="red">#ff0000</color>
+    <color name="green">#00ff00</color>
+    <color name="blue">#0000ff</color>
+    <color name="light_grey">#aaaaaa</color>
+    <color name="grey">#888888</color>
+    <color name="dark_grey">#555555</color>
+
+    <color name="alarm_title_active">#444444</color>
+    <color name="alarm_title_outdated">#888888</color>
+    <color name="alarm_details">#888888</color>
+
+    <color name="primary_text">#212121</color>
+    <color name="secondary_text">#727272</color>
+
+    <color name="proceed_disable">#DEDEDE</color>
+    <color name="proceed_enable">#72D63A</color>
+    <color name="colorWhite">#FFFFFF</color>
+
+</resources>

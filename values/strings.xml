@@ -1,0 +1,45 @@
+<resources>
+    <string name="app_name">HospitalManagementSystem</string>
+    <string name="login_id">user id</string>
+    <string name="login_pass">Password</string>
+    <string name="login_button_text">Login</string>
+    <string name="next">Next</string>
+    <string name="enter_mobile">Please Enter your mobile Number</string>
+    <string name="enter_name">What would you like to be called</string>
+    <string name="enter_email">Please Enter your email address</string>
+    <string name="enter_gender">Select your gender</string>
+    <string name="enter_dob">Select Date of birth</string>
+
+    <string-array name="occurence">
+        <item>Once</item>
+        <item>Weekly</item>
+    </string-array>
+
+    <string-array name="pref_alarm_play_time_entries">
+        <item>10 seconds</item>
+        <item>30 seconds</item>
+        <item>1 minute</item>
+        <item>2 minutes</item>
+        <item>3 minutes</item>
+        <item>5 minutes</item>
+    </string-array>
+
+    <string-array name="pref_alarm_play_time_values">
+        <item>10</item>
+        <item>30</item>
+        <item>60</item>
+        <item>120</item>
+        <item>180</item>
+        <item>300</item>
+    </string-array>
+
+    <string name="title_activity_maps">VWorld</string>
+    <string name="default_info_title">Default Location</string>
+    <string name="default_info_snippet">No places found, because location permission is disabled.</string>
+    <string name="option_get_place">Get place</string>
+    <string name="pick_place">Choose a place</string>
+
+    <string name="quotedesc">Welcome! Where should we deliver to?</string>
+    <string name="title_activity_display_graph">DisplayGraph</string>
+
+</resources>

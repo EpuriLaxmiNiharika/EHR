@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:background="#e1e1e1">
+
+    <!-- Editext for Search -->
+    <EditText android:id="@+id/search_docs"
+        android:background="#fff"
+        android:layout_margin="10dp"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:hint="Search Doctors.."
+        android:drawableLeft="@android:drawable/ic_menu_search"
+        android:drawableTint="@color/colorAccent"
+        android:inputType="textPersonName"/>
+
+    <!-- List View -->
+    <ListView
+        android:id="@+id/doctors_lv"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>

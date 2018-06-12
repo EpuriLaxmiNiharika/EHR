@@ -1,0 +1,68 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:layout_marginTop="20dp"
+    android:paddingTop="10dp"
+    >
+
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    >
+    <!--  ListRow Left sied Thumbnail image 07075E-->
+
+
+        <ImageView
+            android:background="@null"
+            android:id="@+id/patient_img_reason"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/book_appointment"
+            android:paddingTop="10dp"
+            android:paddingLeft="20dp"/>
+    <!-- Title Of Song-->
+           <LinearLayout
+
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:orientation="vertical"
+              >
+            <TextView
+                android:paddingLeft="30dp"
+                android:id="@+id/patient_reason"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Book Appointment"
+                android:textColor="@color/patient_reason"
+                android:textSize="15dip"
+                android:textStyle="bold"
+                android:typeface="sans" />
+            <!-- Artist Name -->
+            <!-- Rightend Duration -->
+            <TextView
+                android:paddingLeft="30dp"
+                android:id="@+id/patient_subreason"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dip"
+                android:text="Sub reason"
+                android:textColor="@color/patient_subreason"
+                android:textSize="12dip" />
+           </LinearLayout>
+
+    <ImageView
+        android:id="@+id/arrow"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="100dp"
+        android:src="@drawable/arrow1" />
+
+</LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="30dp"></LinearLayout>
+</LinearLayout>

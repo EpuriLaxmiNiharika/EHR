@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="350dp"
+    android:layout_height="300dp"
+    android:gravity="center"
+    android:background="@android:color/background_light">
+
+    <TextView
+        android:layout_marginTop="30dp"
+        android:gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/black"
+        android:textSize="17dp"
+        android:text="Do you want to confirm your appointment?"/>
+
+
+    <LinearLayout
+        android:layout_marginTop="60dp"
+        android:layout_marginBottom="30dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Yes"
+            android:background="@null"
+            android:textStyle="bold"
+            android:textSize="20dp"
+            android:textColor="@color/button_pressed_color"
+            android:id="@+id/appointment_confirm" />
+
+        <Button
+            android:layout_marginLeft="60dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@null"
+            android:textStyle="bold"
+            android:textSize="20dp"
+            android:textColor="@android:color/holo_red_light"
+            android:id="@+id/appointment_deny"
+            android:text="No"/>
+
+    </LinearLayout>
+</LinearLayout>
